@@ -53,7 +53,7 @@ public class App
                     case "D":
                     case "d":
                     
-                        System.out.println("numero di biglietti disponibili"+ in.readLine());
+                        System.out.println("numero di biglietti disponibili è uguale a:"+ in.readLine());
                         break;
 
                     case "Q":
