@@ -45,6 +45,8 @@ public class App
                         System.out.println("acquistato con successo");
                     }
 
+
+                    //invio dei vari messaggi a tutti
                     /*if(in.readLine().equals("fin")){
                         presente = false;
                     }*/

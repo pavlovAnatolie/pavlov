@@ -21,7 +21,7 @@ public class App
 
            while(true){
 
-        
+        //acquisico il client e stacco il thread
            Cliente c = new Cliente(biglietti,server.accept(),a);
            a.add(c);
 

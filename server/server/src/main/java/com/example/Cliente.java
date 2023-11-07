@@ -25,6 +25,8 @@ public class Cliente extends Thread{
 
             System.out.println("il dispositivo è stato collegato");
 
+
+            //booleano che permette di chiudere il ciclo
             boolean fine= false;
 
             do {
@@ -45,6 +47,8 @@ public class Cliente extends Thread{
                             out.writeBytes("N"+"\n");
                         }
 
+
+                        //invio il messaggio quando viene acquistato l'ultimo biglietto
                        /*  boolean fin = false;
                         if (biglietti == 0) {
                             fin = true;
@@ -61,6 +65,8 @@ public class Cliente extends Thread{
 
                         case "Q":
                         case "q":
+
+                        //setto il booleano in modo tale da uscire dal do_while
                             fine = true;
                             break;
                     
